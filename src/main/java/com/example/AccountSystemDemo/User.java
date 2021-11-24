@@ -29,7 +29,7 @@ public class User {
             this.password = password;
         }
         else {
-            //throw new InvalidUsernameException();
+            //throw new ResponseStatusException();
         }
         this.age = age;
     }
