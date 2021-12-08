@@ -23,14 +23,8 @@ public class User {
         return age;
     }
 
-    User(String username, String password, String confirmPassword, int age) {
+    User(String username, String password, int age) {
         this.username = username;
-        if (password.equals(confirmPassword)) {
-            this.password = password;
-        }
-        else {
-            //throw new InvalidUsernameException();
-        }
         this.age = age;
     }
 }
